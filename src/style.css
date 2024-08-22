@@ -4,8 +4,8 @@ body{
 }
 
 header{
-    border-bottom:1px rgba(200, 198, 198, 0.871);
-    padding:0 0 30px 0;
+    border-bottom: 1px solid #f9f7fe;
+    padding:0 0 20px 0;
 }
 
 a{
@@ -88,10 +88,40 @@ main{
     margin-left: 6px;
     font-size: 14px;
 }
+.weather-forecast{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+}
 
+.weather-forecast-date{
+    text-align: center;
+    color: dimgray;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+.weather-forecast-icon{
+text-align: center;
+text-size-adjust: 38px;
+}
+.weather-forecast-temperatures{
+  text-align: center;
+  color: crimson;
+  margin-top: 10px;
+  margin-bottom:10px;
+  display: flex;
+  justify-content: center;
+
+
+}
+.weather-forecast-temperature{
+        padding: 0 10px;
+
+}
 footer{
-    border-top:1px rgba(200, 198, 198, 0.871);
-    padding:30px 0 0 0;
+    border-top: 1px solid #f9f7fe;
+    padding:20px 0  0 0 ;
     text-align: center;
     font-size: 13px;
     color: rgba(0 ,0 ,0 ,0.6);
