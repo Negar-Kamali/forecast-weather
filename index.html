@@ -22,79 +22,26 @@
             <input type="submit" value="Search" class="search-form-button"/>
         </form>
     </header>
-        <main>
+    <main>
         <div class="weather-app-data">
-        <div>
-            <h1 class="weather-app-city" id="city"></h1> 
-            
+          <div>
+            <h1 class="weather-app-city" id="city"></h1>
             <p class="weather-app-details">
-                <span id="time"></span>,<span id="description"> </span>
-                <br/>
-                Humidity:<strong id="humidity"></strong>, Wind: <strong id="wind-speed"></strong>
-            </p>  
+              <span id="time"></span>,
+              <span id="description"></span>
+              <br />
+              Humidity: <strong id="humidity"></strong>, Wind:
+              <strong id="wind-speed"></strong>
+            </p>
+          </div>
+          <div class="weather-app-temperature-container">
+            <div id="icon"></div>
+            <div class="weather-app-temperature" id="temperature"></div>
+            <div class="weather-app-unit">°C</div>
+          </div>
         </div>
-        <div  class="weather-app-temperature-container">
-           <div class="weather-app-icon" ></div>
-           <div id="icon"></div> 
-        
-           <div class="weather-app-temperature"id="temperature"> </div>
-           <div class="weather-app-units"> °C</div>
-
-        </div>
-    </div>
-    <div class="weather-forecast">
-        <div class="weather-forecast-day">
-            <div class="weather-forecast-date">Sat</div>
-            <div class="weather-forecast-icon">🌤️</div>
-            <div class="weather-forecast-temperatures">
-                <div class="weather-forecast-temperature">
-                <strong>15°C </strong>
-            </div>
-            <div class="weather-forecast-temperature">9°C </div>
-    </div>
-        </div>
-    <div class="weather-forecast-day">
-        <div class="weather-forecast-date">Sun</div>
-        <div class="weather-forecast-icon">🌤️</div>
-        <div class="weather-forecast-temperatures">
-            <div class="weather-forecast-temperature">
-            <strong>15°C </strong>
-        </div>
-        <div class="weather-forecast-temperature">9°C </div>
-</div>
-    </div>
-<div class="weather-forecast-day">
-    <div class="weather-forecast-date">Mon</div>
-    <div class="weather-forecast-icon">🌤️</div>
-    <div class="weather-forecast-temperatures">
-        <div class="weather-forecast-temperature">
-        <strong>15°C </strong>
-    </div>
-    <div class="weather-forecast-temperature">9°C </div>
-</div>
-</div>
-<div class="weather-forecast-day">
-    <div class="weather-forecast-date">Tue</div>
-    <div class="weather-forecast-icon">🌤️</div>
-    <div class="weather-forecast-temperatures">
-        <div class="weather-forecast-temperature">
-        <strong>15°C </strong>
-    </div>
-    <div class="weather-forecast-temperature">9°C </div>
-</div>
-</div>
-<div class="weather-forecast-day">
-    <div class="weather-forecast-date">Wed</div>
-    <div class="weather-forecast-icon">🌤️</div>
-    <div class="weather-forecast-temperatures">
-        <div class="weather-forecast-temperature">
-        <strong>15°C </strong>
-    </div>
-    <div class="weather-forecast-temperature">9°C </div>
-</div>
-    </div>
-</div>
-    </main>
+        <div class="weather-forecast" id="forecast"></div>
+      </main>
     <footer>Coded by 
         <a href="https://github.com/Negar-Kamali" target="_blank">Negar Kamali</a>
          , and is on <a href="https://github.com/Negar-Kamali/forecast-weather" target="_blank">GitHub</a>
