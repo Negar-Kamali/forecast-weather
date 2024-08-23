@@ -1,6 +1,9 @@
-body{
-    background-color: rgba(200, 198, 198, 0.871);
-    font-family: "roboto" ,sans-serif;
+html,body{
+    background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+    height: 100%;
+    margin: 0;
+        font-family: "roboto" ,sans-serif;   
+ 
 }
 
 header{
